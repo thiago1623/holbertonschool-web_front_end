@@ -1,0 +1,4 @@
+/*makes the behavior of the displacement is as fluid as possible*/
+html {
+    scroll-behavior: smooth;
+}
