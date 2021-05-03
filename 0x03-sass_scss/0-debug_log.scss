@@ -1,7 +1,5 @@
 /* print Hello World */
-
-$str: 'Hello World';
-
+$str: 'Hello world';
 body {
     @debug $str;
 }
