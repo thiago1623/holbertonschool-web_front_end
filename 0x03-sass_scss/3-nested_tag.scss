@@ -1,0 +1,11 @@
+/*Sass file that assigns: */
+$num: 0px;
+$num2: 10px;
+body {
+    margin: $num;
+    padding: $num;
+
+    p {
+        margin: $num2;
+    }
+}
