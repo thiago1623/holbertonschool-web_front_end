@@ -1,0 +1,16 @@
+/*Sass file that assigns: */
+.info {
+    font-size: 12px;
+}
+
+/* @extend is like if it inheriths the properties that are in .info (in this case) */
+/* It helps to optimize and helps to dont write double code*/
+.success {
+    @extend .info;
+    color: #00FF00;
+}
+
+.warning {
+    @extend .info;
+    color: #FF0000;
+}
