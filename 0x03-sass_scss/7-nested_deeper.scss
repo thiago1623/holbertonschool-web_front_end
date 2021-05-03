@@ -1,0 +1,13 @@
+/*Sass file that assigns: */
+$size: 12px;
+$size2: 14px;
+$size3: 16px;
+button {
+    font-size: $size2;
+    h1 {
+        font-size: $size3;
+        &.smaller {
+            font-size: $size;
+        }
+    }
+}
